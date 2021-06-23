@@ -270,7 +270,7 @@ font-size:x-large;
   background-color: #F1F1F1;
   color: #23120B;
   width: 40%;
-  top:35%;
+  top:20%;
   text-align: center;
   border: 3px solid #23120B;
   border-left: none;
@@ -317,14 +317,14 @@ font-size:x-large;
   justify-content: space-between ;
 }
 .container-4 .right a {
-  padding: 0 5px ;
   text-decoration: none;
   margin: 50px;
   color: black;
   border-bottom: 3px solid black;
   font-size: 140%;
-  font-weight: 700;
-  justify-content: space-between ;
+  width: 25%;
+  text-align: center;
+  
   
   
   }
