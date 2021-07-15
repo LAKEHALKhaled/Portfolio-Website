@@ -11,6 +11,7 @@ Get to know me more ,you find all my information and previeous work here.
 
 * The work have been checked using web developer tools with responsive option via multiple phone tablet and computer screen.
 
+![Image of portfolio page](./css/images/portfolio.png)
 
 the link to the website : https://lakehalkhaled.github.io/Portfolio-Website/
 

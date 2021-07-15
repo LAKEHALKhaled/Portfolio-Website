@@ -16,7 +16,10 @@
     color: var(--gin);
     background-color: var(--outer-space);
   }
-  
+  a {
+    text-decoration: none;
+    color: black;
+  }
   h1,
   h2,
   h3,
@@ -189,7 +192,7 @@ font-size:x-large;
 }
 .top-pic .picture-1{
   position: relative;
-  background-image: url(./images/planning.jpeg);
+  background-image: url(./images/weather.png);
   height: 30vh; 
   width: 95%;
   background-repeat: no-repeat;
@@ -214,7 +217,7 @@ font-size:x-large;
 
 .picture-2{
   position: relative;
-  background-image: url(./images/Calculator.jpeg);
+  background-image: url(./images/password.png);
   height: 15vh;
   width: 47%;
   background-size:100% 100%;
@@ -227,7 +230,7 @@ font-size:x-large;
 }
 .picture-3{
   position: relative;
-  background-image: url(./images/Newsletter.png);
+  background-image: url(./images/recipe.png);
   height: 15vh;
   width: 47%;
   background-size:100% 100%;
@@ -240,7 +243,7 @@ font-size:x-large;
 }
 .picture-4{
   position: relative;
-  background-image: url(./images/Personal.jpeg);
+  background-image: url(./images/quiz.png);
   height: 15vh;
   width: 47%;
   background-size:100% 100%;
@@ -253,7 +256,7 @@ font-size:x-large;
 }
 .picture-5{
   position: relative;
-  background-image: url(./images/Restaurants.jpeg);
+  background-image: url(./images/planner.png);
   height: 15vh;
   width: 47%;
   background-size:100% 100%;
@@ -432,7 +435,8 @@ margin: 10px;
 }
 
 .container-4 .right {
-  flex-direction: column;
+  display: block;
+  text-align: center;
 }
 .container-4  {
   flex-direction: column;
