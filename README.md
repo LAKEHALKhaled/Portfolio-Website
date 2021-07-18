@@ -1,6 +1,4 @@
 # Portfolio-Website
-Get to know me more ,you find all my information and previeous work here.
-
 
 * Portfolio Page is a place when people can ge an Idea about you, this is a small page that can benifit sales reps or small businesses have a face on the internet that can grow it later on to a more complex website.
 
@@ -11,9 +9,9 @@ Get to know me more ,you find all my information and previeous work here.
 
 * The work have been checked using web developer tools with responsive option via multiple phone tablet and computer screen.
 
-![Image of portfolio page](./css/images/portfolio.png)
+![Image of portfolio page](./css/images/portfolioImage.png)
 
-the link to the website : https://lakehalkhaled.github.io/Portfolio-Website/
+the link to the website : http://khaledlakehal.com/
 
 
 
