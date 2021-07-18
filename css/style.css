@@ -7,8 +7,7 @@
   
   body {
     /* Sans Serif font stack is implemented to help select the best font for each type of computer operating system */
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica,
-      Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol';
+    font-family: 'Mali', cursive;
   
     /* set body font size to 1.75rem, which is 1.75x more than the font-size of 10px, making it 17.5px  */
     font-size: 1.75rem;
@@ -28,8 +27,9 @@
   h6 {
     margin-bottom: 0.625rem;
     color: var(--heliotrope);
-    font-weight: 700;
+    font-size: 700;
     line-height: 1.1;
+    font-family: 'Mali', cursive;
   }
   
   h1 {
@@ -59,9 +59,18 @@
   
   p {
     margin-bottom: 1rem;
+    
   }
 
+  hr{
+    border: dotted;
+    border-width: 10px;
+    border-bottom: none;
+    border-color: #23120B;
+    width:5%;
+    margin: 100px auto;
 
+  }
 
 body{
     background: #F1F1F1;
@@ -72,7 +81,7 @@ body{
 nav {
         display: flex;
         justify-content: space-between;
-        background-color: #23120B;
+        background-color: #000000;
         padding-top: 10px;
   }
 
@@ -192,7 +201,7 @@ font-size:x-large;
 }
 .top-pic .picture-1{
   position: relative;
-  background-image: url(./images/weather.png);
+  background-image: url(./images/weather.jpeg);
   height: 30vh; 
   width: 95%;
   background-repeat: no-repeat;
@@ -217,7 +226,7 @@ font-size:x-large;
 
 .picture-2{
   position: relative;
-  background-image: url(./images/password.png);
+  background-image: url(./images/password.jpeg);
   height: 15vh;
   width: 47%;
   background-size:100% 100%;
@@ -230,7 +239,7 @@ font-size:x-large;
 }
 .picture-3{
   position: relative;
-  background-image: url(./images/recipe.png);
+  background-image: url(./images/calories.jpeg);
   height: 15vh;
   width: 47%;
   background-size:100% 100%;
@@ -269,7 +278,7 @@ font-size:x-large;
 }
 .styling{
   position: absolute;
-  
+  padding-top: 3px;
   background-color: #F1F1F1;
   color: #23120B;
   width: 40%;
@@ -280,8 +289,9 @@ font-size:x-large;
 }
 .styling-1{
   position: absolute;
+  padding-top: 5px;
   left: 0;
-  bottom: 0;
+  bottom: 10px;
   background-color: #F1F1F1;
   color: #23120B;
   width: 55%;
@@ -290,6 +300,9 @@ font-size:x-large;
   text-align: center;
   border: 3px solid #23120B;
   border-left: none;
+}
+.styling-1,.styling p{
+  font-size: 80%;
 }
                                           /* Contact me information  */
 .container-4{
@@ -354,7 +367,7 @@ font-size:x-large;
     background-color: #F1F1F1;
     color: #23120B;
     transition: 1s ease;
-    content:" lakehal.realestate@gmail.com" ;
+    content:" contact@khaledlakehal.com" ;
     display: block;
     font-size: medium;
    
@@ -435,8 +448,8 @@ margin: 10px;
 }
 
 .container-4 .right {
-  display: block;
-  text-align: center;
+  display: flex;
+  flex-direction:column;
 }
 .container-4  {
   flex-direction: column;
@@ -450,6 +463,7 @@ justify-content: center;
 }
 .container-4 .right a{
   margin: 10px;
+  
 }
 }
   
