@@ -11,7 +11,7 @@
 
 ![Image of portfolio page](./css/images/portfolioImage.png)
 
-the link to the website : http://khaledlakehal.com/
+the link to the website :  https://lakehalkhaled.github.io/Portfolio-Website/
 
 
 
